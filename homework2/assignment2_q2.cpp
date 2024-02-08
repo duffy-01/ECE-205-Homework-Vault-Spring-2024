@@ -15,8 +15,8 @@ double mean_and_sdeviation(const vector<double> scores)
 	
 	int scoreSize = scores.size();
 	
-	fixed;
-	precision(2);
+	cout << std::fixed;
+    cout.precision(2);
 	
 	//	sum elements in vector
 	auto sum = accumulate(scores.begin(), scores.end(), 0.0);
