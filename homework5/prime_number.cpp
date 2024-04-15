@@ -72,15 +72,11 @@ boy I wish this was a header file
   PrimeNumber operator++(int)
   {
     PrimeNumber num = *this;
-    ++(*this);
-    return num;
   }
 
   PrimeNumber operator--(int)
   {
-    PrimeNumber num = *this;
-    --(*this);
-    return num;
+    return --num;
   }
 };
 
